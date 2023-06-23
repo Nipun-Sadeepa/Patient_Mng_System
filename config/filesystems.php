@@ -70,7 +70,9 @@ return [
     */
 
     'links' => [
-        public_path('storage') => storage_path('app/public'),
+        public_path('Prescriptions') => storage_path('app/Prescriptions'),
+        public_path('User_NIC') => storage_path('app/User_NIC'),
+        public_path('Prescrip') => storage_path('app/Prescrip'),
     ],
 
 ];
